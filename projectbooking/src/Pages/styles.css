@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container {
+    display: flex;
+  }
+  
+  .dashboard-nav {
+    width: 200px;
+    background-color: #f8f9fa;
+    padding: 1em;
+    border-right: 1px solid #e0e0e0;
+  }
+  
+  .dashboard-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-nav li {
+    margin-bottom: 1em;
+  }
+  
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 1em;
+  }
+  /* StudentList.css */
+
+.student-list {
+  width: 80%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.student-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.student-list table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-list th, .student-list td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-list th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #555;
+}
+
+.student-list tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.student-list tr:hover {
+  background-color: #f1f1f1;
+}
+
+.student-list td {
+  color: #666;
+}
+
+.student-list td:first-child {
+  font-weight: bold;
+}
+
+.student-list th, .student-list td {
+  text-align: center;
+}
+
+.student-list th:first-child, .student-list td:first-child {
+  text-align: left;
+}

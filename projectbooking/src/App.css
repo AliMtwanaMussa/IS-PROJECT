@@ -1,0 +1,83 @@
+styles.css
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 1em;
+}
+
+label {
+  margin-bottom: .5em;
+  color: #333333;
+  display: block;
+}
+
+input {
+  border: 1px solid #CCCCCC;
+  padding: .5em;
+  font-size: 1em;
+  width: calc(100% - 1em);
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.7em;
+  color: #fff;
+  background-color: #9f11bb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9f11bb;
+}
+
+p {
+  color: rgb(66, 65, 65);
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.toggle-link {
+  color: #9f11bb;
+  cursor: pointer;
+  margin-top: 1em;
+  text-align: center;
+  display: block;
+}
+
+.toggle-link:hover {
+  text-decoration: none;
+}
+.varient .body1 p{
+  color: #fff;
+}
+/* aboutUs */
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+  text-align: center;
+  color: #333;
+}
+
+.about-us p {
+  margin: 15px 0;
+  line-height: 1.6;
+  color: rgb(99, 80, 80);
+}
+
+/* home */
